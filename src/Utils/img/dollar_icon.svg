@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 24" width="21" height="24">
+	<title>Light page</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #0d0d0f;stroke: #0e0e0f;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 4 } 
+		.t1 { font-size: 15px;line-height: 48px;fill: #ffffff;font-weight: 700;font-family: "Inter-Bold", "Inter" } 
+	</style>
+	<g id="Header">
+		<g id="Buy Forms">
+			<g id="1">
+				<g id="form 1">
+					<g id="inactive drop">
+						<path id="Polygon 517" class="s0" d="m10.5 2.3l8.6 4.8v9.8l-8.6 4.9-8.6-4.9v-9.8z"/>
+						<text id="$" style="transform: matrix(.75,0,0,.75,6.899,15.682)" >
+							<tspan x="0" y="0" class="t1" dx="0 0" >$
+</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

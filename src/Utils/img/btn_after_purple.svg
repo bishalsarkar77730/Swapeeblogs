@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 62" width="214" height="62">
+	<title>Light page</title>
+	<defs>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1" ><feDropShadow dx="-3.6739403974420594e-16" dy="6" stdDeviation="11.25" flood-color="#482aff" flood-opacity=".6"/></filter>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { filter: url(#f1);fill: #5919dd;stroke: #5a19dd;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 6 } 
+	</style>
+	<g id="Body">
+		<g id="Button">
+			<path id="Shape 740" fill-rule="evenodd" class="s0" d="m3 59v-42.1l13.7-13.9h194.3v42.5l-13.3 13.5z"/>
+		</g>
+	</g>
+</svg>

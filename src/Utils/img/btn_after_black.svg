@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 64" width="216" height="64">
+	<title>Light page</title>
+	<defs>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1" ><feDropShadow dx="-3.6739403974420594e-16" dy="6" stdDeviation="11.25" flood-color="#5a1add" flood-opacity=".4"/></filter>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { filter: url(#f1);fill: #141414;stroke: #141414;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 8 } 
+	</style>
+	<g id="Header">
+		<g id="Buttons">
+			<g id="Button">
+				<g id="dark">
+					<path id="Shape 740 copy 2" fill-rule="evenodd" class="s0" d="m4 60v-42.1l13.7-13.9h194.3v42.5l-13.3 13.5z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
