@@ -1,11 +1,13 @@
 import React from "react";
-import Swapeeblogs from "./Pages/BlogPages/Swapee-blogs";
+// import Swapeeblogs from "./Pages/BlogPages/Swapee-blogs";
+import Swapeeblogsinnerdark from "./Pages/BlogPages/Swapee-blogs-inner-dark";
 import Footer from "./Components/Footer";
 
 const App = () => {
   return (
     <>
-      <Swapeeblogs />
+      <Swapeeblogsinnerdark />
+      {/* <Swapeeblogs /> */}
       <Footer />
     </>
   );

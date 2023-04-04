@@ -9,7 +9,7 @@ import "../../Styles/Responsive.css";
 const Swapeeblogs = () => {
   return (
     <>
-      <header className="pt-8 header_dark header_dark2">
+      <header className="pt-4 header_dark header_dark2">
         <Navbar />
         <div className="container min-w-lg mx-auto sm:px-4 container_xxl sm:px-6 px-3">
           <div className="py-4">

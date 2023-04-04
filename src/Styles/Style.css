@@ -1058,7 +1058,7 @@ body {
   aspect-ratio: 1 / 0.6;
 }
 
-.Load_more{
+.Load_more {
   padding-top: 25px !important;
   padding-bottom: 25px !important;
   padding-left: 55px !important;
@@ -1245,7 +1245,6 @@ body {
   display: none;
 }
 
-
 .footer_purple {
   background: url("../Utils/img/footer2BG_purple.png") no-repeat;
   background-size: cover;
@@ -1253,8 +1252,7 @@ body {
 
 /* dark > header */
 .header_dark {
-  background-color: #0e0e0e;
-  padding-bottom: 30px;
+  padding-bottom: 30px !important;
 }
 
 .header_dark2 {
@@ -1305,8 +1303,8 @@ body {
 
 .nav_dropdown2 {
   border: none;
-  background-color: #181818;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.158);
+  background-color: #181818 !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.158) !important;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -1321,7 +1319,7 @@ body {
 
 .ul_purple .nav_dropdown2 a:focus,
 .ul_purple .nav_dropdown2 a:hover {
-  color: var(--white);
+  color: var(--txt_purple) !important;
   background-color: rgb(17, 17, 17);
 }
 
@@ -3353,8 +3351,64 @@ body {
   -o-border-radius: 8px;
 }
 
-.res_nav{
+.res_nav {
   position: absolute;
   visibility: hidden;
   opacity: 0000000;
+}
+
+.navbar {
+  font-size: 18px;
+  font-weight: 600 !important;
+}
+
+.nav-logo img {
+  width: 200px !important;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  margin-top: 0.125rem !important;
+  z-index: 1000;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-clip: padding-box;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-size: 15px;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.nav_v:hover {
+  color: #5a19dd !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.dropdown-item:hover {
+  color: #5a19dd !important;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }

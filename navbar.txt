@@ -1,33 +1,4 @@
-import React, { useState } from "react";
-import { IoMdSunny, IoMdMoon } from "react-icons/io";
-import darkLogo from "../Utils/img/logo_dark.png";
-import "../Styles/Style.css";
-import "../Styles/Responsive.css";
-
-const Navbar = () => {
-  const [Mode, setMode] = useState("Dark");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isToggled, setIsToggled] = useState(false);
-  const [isnavopen, setIsnavopen] = useState(false);
-  console.log("isnavopen  ", isnavopen);
-
-
-  function tooglenavbar() {
-    setIsnavopen(!isnavopen);
-  }
-
-  function handleClick() {
-    setIsToggled(!isToggled);
-    setMode(isToggled ? "Dark" : "Light");
-  }
-
-  function toggleMenu() {
-    setIsMenuOpen(!isMenuOpen);
-  }
-
-  return (
-    <>
-      <nav className="sm:px-2 mx-auto sm:px-2 container_xxl">
+<nav className="sm:px-2 mx-auto sm:px-2 container_xxl">
         <div className="navbar flex flex-row items-center justify-between font-medium container mx-auto px-4 sm:px-4 2xl:max-w-8xl">
           <a
             className="nav-logo inline-block pt-1 pb-1 mr-4 whitespace-no-wrap site_logo_light"
@@ -151,17 +122,5 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-          <button
-            className="res_nav relative py-1 px-2 text-md leading-normal bg-transparent border border-transparent rounded border-0 shadow-none"
-            type="button"
-            onClick={tooglenavbar}
-          >
-            <i className="fas fa-bars txt_white"></i>
-          </button>
         </div>
       </nav>
-    </>
-  );
-};
-
-export default Navbar;
