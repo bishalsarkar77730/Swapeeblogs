@@ -294,16 +294,19 @@ body {
 .hero_light {
   display: flex;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 3rem !important;
 }
 
 .hero_light_left {
   flex: 1;
-  margin-right: 40px;
+  margin-right: 40px !important;
+  display: block !important;
 }
 
 .hero_light_left h1 {
   font-weight: 900;
+  font-size: 46px;
+  letter-spacing: 1px;
 }
 
 .hero_light_left h1 span {
@@ -313,9 +316,20 @@ body {
 }
 
 .hero_light_left p {
-  color: #434a63;
+  color: var(--txt_light_secondary) !important;
+  margin-bottom: 1rem !important;
+  font-size: 1.35rem;
   font-weight: 300;
   line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.hero_light_left .p1 {
+  margin-bottom: 12px !important;
+}
+
+.hero_light_left .p2 {
+  margin-bottom: 60px !important;
 }
 
 .hero_light_right {
@@ -344,10 +358,11 @@ body {
   width: 50%;
   border: none;
   outline: none;
-  padding: 15px 20px;
+  padding: 20px 20px;
   font-weight: 700;
   color: var(--txt_dark);
   background: #fbfcfe;
+  font-size: 15px !important;
 }
 
 .hero_light_right.theme_dark,
@@ -398,6 +413,14 @@ body {
   background: #1d1531;
 }
 
+/* .hero_form_tab{
+  border: none !important;
+  outline: none !important;
+  padding: 15px 20px !important;
+  font-weight: 700 !important;
+  font-size: 15px;
+} */
+
 .hero_form_tab_active {
   display: block;
   background: #e9f2f7 !important;
@@ -416,12 +439,19 @@ body {
 }
 
 .hero_light_right_form {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1rem !important;
+  margin-bottom: 1rem !important;
   background-color: #fbfcfe;
   border-radius: 0 0 14px 14px;
   -webkit-border-radius: 0 0 14px 14px;
   -moz-border-radius: 0 0 14px 14px;
   -ms-border-radius: 0 0 14px 14px;
   -o-border-radius: 0 0 14px 14px;
+}
+
+.bitText{
+  font-size: 22px;
 }
 
 .hero_light_right.theme_dark .hero_light_right_form {
@@ -432,8 +462,13 @@ body {
   background: #1d1531;
 }
 
+.sectio1_hero{
+  width: 100% !important;
+}
+
 .hero_light_right_form_row {
   display: flex;
+  justify-content: space-between !important;
   border: 2px solid #d9dbdf;
   padding: 20px;
   border-radius: 14px;
@@ -442,6 +477,8 @@ body {
   -ms-border-radius: 14px;
   -o-border-radius: 14px;
   box-shadow: 0 0 2px #d9dbdf;
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
 }
 
 .hero_light_right.theme_dark .hero_light_right_form_row {
@@ -470,7 +507,22 @@ body {
   -o-border-radius: 10px;
 }
 
-.hero_light_right.theme_dark .hero_light_right_form_row_right {
+.hero_light_right_form_row_right2{
+  width: 155px;
+  padding-left: 45px;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  background: #1c1c1c;
+  /* border: 2px solid #d9dbdf; */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hero_light_right.theme_dark .hero_light_right_form_row_right{
   border-color: #1c1c1c;
   background: #1c1c1c;
   position: relative;
@@ -584,7 +636,7 @@ body {
 }
 
 .hero_light_right_form_row_left p {
-  color: #aaabac;
+
 }
 
 .hero_light_right_form_row_left input {
@@ -648,6 +700,10 @@ body {
 
 .form_btns_l a:not(:last-child) {
   margin-right: 12px;
+}
+
+.offerbut{
+  width: 605px !important;
 }
 
 .btn_dark_hero span {
@@ -2373,10 +2429,11 @@ body {
 
 /*  */
 .parentExchangeForm2 {
-  max-width: unset !important;
+  width: 100%;
 }
 
 #exchangeForm2 {
+  width: 100%;
   border-radius: 8px 8px 0 0;
   -webkit-border-radius: 8px 8px 0 0;
   -moz-border-radius: 8px 8px 0 0;
